@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="D-MST Solver" Height="350" Width="525">
+    <Grid Margin="0,0,-8,0" RenderTransformOrigin="0.493,0.517">
+        <Button Name="butWylicz" Content="Wylicz" HorizontalAlignment="Left" Margin="377,252,0,0" VerticalAlignment="Top" Width="75" Click="butWylicz_Click"/>
+        <Label Content="Graf wejsciowy" HorizontalAlignment="Left" Margin="55,20,0,0" VerticalAlignment="Top" Width="126"/>
+        <Label Content="Drzewo wynikowe" HorizontalAlignment="Left" Margin="55,61,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.026,0.5" Width="126"/>
+        <Label Content="Algorytm" HorizontalAlignment="Left" Margin="55,103,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.211,0.5" Width="126"/>
+        <Label Content="Maks. stopień wieżchołka" HorizontalAlignment="Left" Margin="55,149,0,0" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.5,0.5">
+
+        </Label>
+        <TextBox Name="txtStopien" HorizontalAlignment="Left" Height="23" Margin="305,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="147" />
+        <RadioButton Name="radioKruskal" Content="Kruskal" HorizontalAlignment="Left" Margin="305,112,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="radioPrima" Content="Prima" HorizontalAlignment="Left" Margin="403,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.204,0.6"/>
+        <TextBox Name="txtGraf" HorizontalAlignment="Left" Height="23" Margin="215,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" />
+        <TextBox Name="txtDrzewo" HorizontalAlignment="Left" Height="23" Margin="215,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="216" />
+        <Button Name="butGraf" Content="..." HorizontalAlignment="Left" Margin="431,23,0,0" VerticalAlignment="Top" Width="21" Height="23" Click="butGraf_Click"/>
+        <Button Name="butDrzewo" Content="..." HorizontalAlignment="Left" Margin="431,65,0,0" VerticalAlignment="Top" Width="21" Height="23" RenderTransformOrigin="0.667,2.348" Click="butDrzewo_Click"/>
+
+
+    </Grid>
+</Window>
